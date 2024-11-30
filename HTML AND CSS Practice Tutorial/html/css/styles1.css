@@ -1,0 +1,64 @@
+h2:hover{
+    color: red;
+}
+
+/* .subtitle{
+    color: blue ;
+} */
+
+/* Attribute selse=ctor for subtitle */
+h2[class=subtitle]{
+    color: yellow;
+}
+
+/* Attribute selector for images */
+img[src*="../images/"]{
+    border: 10px solid black;
+}
+
+#services{
+    color: green;
+}
+
+/* li:last-child{
+    color: green;
+} */
+
+/* li:first-child{
+    color: purple;
+} */
+
+/* li:nth-child(2){
+    color: orange;
+} */
+
+/* link color before being clicked
+#google-link :link{
+     color: blue;
+}
+/*link color after being clicked */
+/* #google-link:visited{ 
+     color: red;
+} */ 
+
+h2 + a{
+    color: rgb(95, 50, 50);
+}
+
+textarea + button{
+    color: rgb(205, 2, 97);
+}
+
+ul > li{
+    color: blue;
+}
+
+/**descendant selector*/
+
+ul li {
+    color: green;
+}
+
+h2[class~="article-subtitle"]{
+    background-color: green;
+}
